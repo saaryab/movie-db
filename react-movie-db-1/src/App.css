@@ -1,0 +1,71 @@
+.app-root {
+    width: 100%;
+    position: relative;
+}
+
+.app-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.app-title {}
+
+.app-logo {
+    height: 5rem;
+    padding: 1rem 3rem 1rem 1rem;
+    cursor: pointer;
+}
+
+.movie-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.movie-item {
+    width: 25%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.movie-title {}
+
+.movie-thumbnail {
+    width: 100%;
+}
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-wrapper {
+    padding: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
