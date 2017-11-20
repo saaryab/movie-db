@@ -1,4 +1,0 @@
-{
-    "mongoDbConnection":"mongodb://web-server:webServerSecret@ds113586.mlab.com:13586/movie-db",
-    "apiPassword": "SHFlNHhtdVkjQ0A0JnFyeA=="
-}
