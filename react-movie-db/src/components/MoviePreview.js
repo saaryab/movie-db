@@ -17,8 +17,8 @@ export class MoviePreview extends React.Component {
             alt="movie thumbnail" />
   
           <div className="movie-details">
-            <div>{this.props.movie.genre}</div>
-            <div>{this.props.movie.description}</div>
+            <div><b>Genre: </b>{this.props.movie.genre}</div>
+            <div><b>Description: </b>{this.props.movie.description}</div>
           </div>
         </div>
       );

@@ -1,6 +1,8 @@
 .app-root {
     width: 100%;
     position: relative;
+    padding: 2rem;
+    box-sizing: border-box
 }
 
 .app-header {
@@ -59,6 +61,29 @@
     cursor: pointer;
     margin: 1rem;
     border: 1px solid black;
+}
+
+.edit-movie-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-movie-form label {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+}
+
+.edit-movie-form input,
+.edit-movie-form textarea {
+    margin: 0 0 0 1rem;
+    padding: 5px;
+}
+
+.edit-movie-form textarea {
+    width: 15rem;
+    height: 6rem;
 }
 
 @keyframes App-logo-spin {

@@ -60,8 +60,8 @@ export class EditMoviePage extends React.Component {
 
   render() {
     return (
-      <div className="movie-item">
-        <form onSubmit={this.handleSubmit}>
+      <div className="edit-movie-page">
+        <form className="edit-movie-form" onSubmit={this.handleSubmit}>
           <label>
             Title:
           <input type="text" name="title" value={this.state.movie.title} onChange={this.handleInputChange} />
@@ -84,7 +84,7 @@ export class EditMoviePage extends React.Component {
           </label>
           <label>
             Long description:
-          <input type="text" name="longDescription" value={this.state.movie.longDescription} onChange={this.handleInputChange} />
+          <textarea type="text" name="longDescription" value={this.state.movie.longDescription} onChange={this.handleInputChange} />
           </label>
         </form>
 
